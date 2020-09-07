@@ -53,11 +53,15 @@ body {
 .cases .fa-caret-down {
     color: green;
 }
+thead{
+  background: pink;
+}
 .data {
     display: flex;
     justify-content: space-between;
     margin-top: 4em;
     position: relative;
+  
 }
 .data table {
     width: 54em;

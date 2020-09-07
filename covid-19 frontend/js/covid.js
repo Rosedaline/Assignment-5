@@ -23,10 +23,10 @@ window.onload = async () => {
             let tr = tbody.appendChild(document.createElement('tr'))
             tr.setAttribute('class', 'ntr');
             tr.appendChild(document.createElement('td')).innerHTML = elem.Country_Region
-            tr.appendChild(document.createElement('td')).innerHTML = elem.Active
-            tr.appendChild(document.createElement('td')).innerHTML = elem.Recovered
-            tr.appendChild(document.createElement('td')).innerHTML = elem.Deaths
             tr.appendChild(document.createElement('td')).innerHTML = elem.Confirmed
+            tr.appendChild(document.createElement('td')).innerHTML = elem.Deaths
+            tr.appendChild(document.createElement('td')).innerHTML = elem.Recovered
+            tr.appendChild(document.createElement('td')).innerHTML = elem.Active
             document.querySelector('#loading').style.display = 'none'
         }
     }
